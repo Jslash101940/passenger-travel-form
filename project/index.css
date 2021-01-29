@@ -1,0 +1,176 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+}
+ 
+html {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23c58611' stroke-width='100' stroke-opacity='0.18' %3E%3Ccircle fill='%23000000' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%230a0202' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23130303' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%231d0505' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23270707' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23300909' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%233a0a0a' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23440c0c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%234d0e0e' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23570f0f' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23601111' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%236a1313' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23741414' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%237d1616' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23871818' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23911a1a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%239a1b1b' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23a41d1d' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;}
+ 
+body {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: auto auto;
+}
+ 
+.first-col {
+    background-color: rgba(250, 212, 142, 0.75);
+    flex: 278px 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+* {
+    color: rgb(0, 0, 0);
+}
+ 
+h4 {
+    margin-bottom: 40px;
+}
+ 
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: black solid 1px;
+    background-color: rgba(0, 0, 0, 0%);
+    margin-top: 3px;
+}
+ 
+.second-col {
+    background-color: rgba(252, 229, 189, 0.75);
+    flex: 520px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    margin-left: 10px;
+}
+ 
+.col {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.col label, .col input {
+    flex: 125px 0 0;
+}
+ 
+.space {
+    margin-bottom: 20px;
+}
+ 
+.lessspace {
+    margin-bottom: 5px;
+}
+ 
+.col label.bags {
+    flex: 150px 0 0;
+    align-self: start;
+}
+ 
+.col input.bags {
+    flex: 70px 0 0;
+}
+ 
+.meals {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+ 
+.col .meals div label {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.col .meals div input {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.extras label {
+    flex: 170px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.extras input {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+button {
+    font-size: larger;
+    color: white;
+    background: rgb(212, 175, 55);
+}
+ 
+select {
+    height: 1.45em;
+}
+ 
+#print {
+    height: 1.20rem;
+    font-size: small;
+    margin-left: 10px;
+}
+ 
+.second-col .col label{
+    flex: 100px 0 0;
+}
+.second-col .col input{
+    flex: 125px 0 0;
+}
+ 
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 90%
+}
+ 
+.row input{
+    margin-left: 10px;
+}
+.bags{
+    height: 1.1rem;
+}
+ 
+#names{
+    margin-top: 30px;
+    columns: 1;
+    width: 90%;
+}
+ 
+span{
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+ 
+#success{
+    height: 1.5rem;
+    font-size: 1.5rem;
+}
+ 
+#outreturnDate, #outleaveDate{
+    width: 129px;
+    margin:0px 5px;
+}
